@@ -1,0 +1,91 @@
+WindowManager:
+    SignIn:
+    NewUser:
+    Dashboard:
+    ProblemsPage:
+
+<ProblemsPage>:
+    name:'problemspage_screen'
+
+<Dashboard>:
+    name:"dashboard_screen"
+    
+
+
+<SignIn>:
+    name:"singin_screen"
+    
+<NewUser>:
+    canvas:
+    
+        Rectangle:
+            source:"back.jpg"
+            pos:self.pos
+            size:self.size
+
+    name:"newuser_screen"
+
+    user_name:user_name
+    user_email_id:user_email_id
+    user_pass:user_pass
+
+    GridLayout:
+        padding:30,30
+        spacing:10,10
+        cols:1
+        Label:
+            size_hint: (.5, None)
+            height: 70
+            text:""
+        GridLayout:
+            cols:2
+            spacing:30,30
+            padding:20,20
+            Label:
+                size_hint: (.5, None)
+                height: 60
+                text:"User Name"
+            TextInput:
+                id:user_name
+                size_hint: (.5, None)
+                height: 60
+                multiline:False
+            Label:
+                size_hint: (.5, None)
+                height: 60
+                text:"Email Id"
+            TextInput:
+                id:user_email_id
+                size_hint: (.5, None)
+                height: 60
+                multiline:False
+
+            Label:
+                size_hint: (.5, None)
+                height: 60
+                text:"Password"
+            TextInput:
+                id:user_pass
+                password:True
+                size_hint: (.5, None)
+                height: 60
+                
+                multiline:False
+        Button:
+            text:"Create Account"
+            size_hint: (.5, None)
+            height: 70
+            background_color:0,0,0,0.9
+            on_release:
+                root.Register_User()
+                app.root.current='singin_screen'
+                
+                
+        Button:
+            text:"Back"
+            size_hint: (.5, None)
+            height: 70
+            background_color:0,0,0,0.9
+            on_release:
+                app.root.current='singin_screen'
+                
