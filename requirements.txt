@@ -1,0 +1,23 @@
+For installing kivy:
+python -m pip install --upgrade pip wheel setuptools
+python -m pip install docutils pygments pypiwin32 kivy_deps.sdl2==0.1.* kivy_deps.glew==0.1.*
+python -m pip install kivy_deps.gstreamer==0.1.*
+python -m pip install kivy_deps.angle==0.1.*
+python -m pip install kivy==1.11.1
+
+necessary pip installs:
+pip install validate_email
+pip install python-firebase
+
+If you encounter this error:
+ Traceback (most recent call last):
+   File "Esp.py", line 23, in <module>
+     from firebase import firebase
+   File "C:\Users\Captain_SK\Anaconda3\lib\site-packages\firebase\__init__.py", line 3
+     from .async import process_pool
+               ^
+ SyntaxError: invalid syntax
+follow instructions on this link:
+https://stackoverflow.com/questions/52133031/receiving-async-error-when-trying-to-import-the-firebase-package
+
+Basically async is a keyword in python. So in firebase file you need to rename it.
