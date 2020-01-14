@@ -2,13 +2,23 @@
 Esp game
 To run this project you need to satisfy following requirements:
 1. Python3
-2. Kivy 1.11.1
-3. Firebase
+2. Kivy 1.11.1 (steps are added in requirements.txt)
+3. Firebase (pip install python-firebase)
+4. os
+5.socket (pip install sockets)
 
  Also go through the requiremets.txt file and install required dependencies. I have provide link for the solution of potential error.
 Please ensure all the imports and assure that all imports are present or kindly install them(mostly by pip install xyz)
 To run this project simply download/clone the Project folder from the repo.
-After that simply run Esp.py file (python Esp.py)
+
+
+After satisfying all imports and dependencies to run this projetc:
+
+(1)  Download the 'project folder'.No need to add or delete any file or folder.
+
+(2) After that from cmd navigate to that folder and then run the esp.py file (python esp.py)
+
+At the time of login or create account you need to wait for a while as it take time to communiate with the server and perform synchronization.
 
 For this project I have following Assumptions:
 1. Images to be shown in problems are stored locally(it can also be stored on the firebase/server) in a folder named  Tasks in the following fashion:
