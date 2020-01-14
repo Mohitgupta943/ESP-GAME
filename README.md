@@ -12,7 +12,7 @@ Please ensure all the imports and assure that all imports are present or kindly 
 To run this project simply download/clone the Project folder from the repo.
 
 
-After satisfying all imports and dependencies to run this projetc:
+**After satisfying all imports and dependencies to run this project:**
 
 (1)  Download the 'project folder'.No need to add or delete any file or folder.
 
