@@ -43,7 +43,7 @@ Once you complete all the questions you can submit it.
 
 NOTE:
 Current code is designed for running on single system with multiple users. If you want to run it on different systems you need to do following changes:
-You need to comment few lines in Esp.py (from line no. 501 to 503):
+You need to comment few lines in Esp.py (from line no. 500 to 503):
 
 500.src1='AllUsers\\'+sec_email+'\Task'+t_no+'\isEvaluated'
 
