@@ -4,7 +4,8 @@ To run this project you need to satisfy following requirements:
 1. Python3
 2. Kivy 1.11.1
 3. Firebase
-Also go through the requiremets.txt file and install required dependencies. I have provide link for the solution of potential error.
+
+ Also go through the requiremets.txt file and install required dependencies. I have provide link for the solution of potential error.
 Please ensure all the imports and assure that all imports are present or kindly install them(mostly by pip isntall xyz)
 To run this project simply download/clone the Project folder from the repo.
 After that simply run Esp.py file (python Esp.py)
