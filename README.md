@@ -1,5 +1,4 @@
 # ESP-GAME
-Esp game
 To run this project you need to satisfy following requirements:
 1. Python3
 2. Kivy 1.11.1 (steps are added in requirements.txt)
